@@ -1,6 +1,7 @@
 package net.hollows.necromancer;
 
 import net.fabricmc.api.ModInitializer;
+import net.hollows.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class Necromancer implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 	}
 }
